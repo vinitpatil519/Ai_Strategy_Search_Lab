@@ -1,0 +1,33 @@
+{
+  "name": "ai-strategy-search-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "smoke": "node scripts/run-smoke.mjs"
+  },
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.5.6",
+    "esbuild": "^0.25.9",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  },
+  "description": "Algorithmic strategy discovery: genetic search, walk-forward backtesting, regime detection and clustering, entirely in the browser.",
+  "engines": {
+    "node": ">=20"
+  }
+}
