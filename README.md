@@ -4,6 +4,13 @@ A quantitative research console that discovers trading strategies by algorithmic
 
 The "AI" here is search, not inference: a genetic algorithm over a rule grammar, a Gaussian hidden Markov model for regime detection, k-means and t-SNE for structure discovery.
 
+<img width="1915" height="972" alt="image" src="https://github.com/user-attachments/assets/ddba1577-b918-4079-81bb-4400f7f8261f" />
+<img width="1911" height="971" alt="image" src="https://github.com/user-attachments/assets/6e22e181-fdfe-4e47-88e5-035d8ce1274a" />
+<img width="1917" height="970" alt="image" src="https://github.com/user-attachments/assets/ce05ebc5-5264-4034-b3e9-386c8bb86c79" />
+<img width="1917" height="973" alt="image" src="https://github.com/user-attachments/assets/d82c16db-7888-473c-9730-6527fd4cf4f0" />
+
+
+
 ## What it does
 
 1. **Generates** thousands of rule-based strategies across five families (trend, breakout, mean reversion, carry, volatility), each with its own parameter schema and risk genes.
